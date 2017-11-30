@@ -10,8 +10,8 @@ if is_mri; then
 
   clone_repo "rspec"
   clone_repo "rspec-core"
-  clone_repo "rspec-expectations"
-  clone_repo "rspec-mocks"
+  clone_repo "rspec-expectations" "jcrisp"
+  clone_repo "rspec-mocks" "jcrisp"
   clone_repo "rspec-rails"
 
   if rspec_support_compatible; then
